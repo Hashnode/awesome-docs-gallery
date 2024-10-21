@@ -505,6 +505,19 @@
     "x": "https://x.com/dubdotco",
     "github": "",
     "linkedin": ""
+  },
+  {
+    "id":40,
+    "title":"val.town Docs",
+    "description":"val.town docs provides a detail guide to write and deploy vals (runnable JavaScript, TypeScript, and JSX modules) instantly on web.",
+    "link":"https://docs.val.town/",
+    "logo":"https://cdn.hashnode.com/res/hashnode/image/upload/v1729519939661/tw-4GYuNv.png?auto=format",
+    "screenshot":"https://cdn.hashnode.com/res/hashnode/image/upload/v1729520290534/5_Wy7rku5.png?auto=format",
+    "category":"Web",
+    "featured":"true",
+    "x":"https://x.com/valdottown",
+    "github":"https://github.com/val-town",
+    "linkedin":"https://www.linkedin.com/company/val-town"
   }
 
 
