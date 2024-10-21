@@ -518,6 +518,19 @@
     "x": "https://x.com/useexpressjs",
     "github": "https://github.com/expressjs/express",
     "linkedin": ""
+  },
+  { 
+    "id": 41, 
+    "title": "React-Native Documentation", 
+    "description": "React-Native docs provide a comprehensive guide for building cross platform applications for Android, iOS, Web. It's an essential resource to understand core concepts and best practices for using Express efficiently.", 
+    "link": "https://reactnative.dev", 
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729537206218/s-7BAX0wn.png?auto=format", 
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729537271108/wz16MRQx4.png?auto=format", 
+    "category": "Framework", 
+    "featured": false, 
+    "x": "https://x.com/reactnative", 
+    "github": "https://github.com/facebook/react-native", 
+    "linkedin": "https://www.linkedin.com/products/facebook-react-native" 
   }
 
 
