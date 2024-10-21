@@ -1,10 +1,10 @@
 "use client";
 
-import React from "react";
+import DocCard from "@/components/DocCard";
 import Header from "@/components/Header";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import DocCard from "@/components/DocCard";
+import React from "react";
 
 // Array to store documentation tools
 const docsTools = [
@@ -188,6 +188,18 @@ const docsTools = [
     category: "",
     featured: false,
   },
+  {
+    id: 40,
+    title: "Express Documentation",
+    description: "Express.js docs provide a comprehensive guide for building web applications with Express, covering routing, middleware, and more. It's an essential resource to understand core concepts and best practices for using Express efficiently.",
+    link: "https://expressjs.com/en/starter/installing.html",
+    logo: "https://cdn.hashnode.com/res/hashnode/image/upload/v1729516461513/2SIYbqNpS.webp?auto=format",
+    screenshot: "https://cdn.hashnode.com/res/hashnode/image/upload/v1729516516058/ByQQFygGK.png?auto=format",
+    github: "https://github.com/expressjs/express",
+    linkedin: "",
+    x: "https://x.com/useexpressjs",
+    featured: false,
+  }
 ];
 
 const ToolsPageContent: React.FC = () => {
