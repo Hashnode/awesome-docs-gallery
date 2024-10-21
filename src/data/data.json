@@ -518,6 +518,19 @@
     "x": "https://x.com/useexpressjs",
     "github": "https://github.com/expressjs/express",
     "linkedin": ""
+  },
+  {
+    "id": 41,
+    "title": "Zustand Documentation",
+    "description": "Zustand's documentation provides clear guidance on using this minimal, scalable state management library for React. It covers key features, setup, usage examples, and advanced topics to help developers manage state efficiently in their applications.",
+    "link": "https://zustand.docs.pmnd.rs/getting-started/introduction",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729523668054/eKkUulUWw.jpeg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729523712279/CPzt5c-Up.png?auto=format",
+    "category": "Web",
+    "featured": false,
+    "x": "",
+    "github": "https://github.com/pmndrs/zustand",
+    "linkedin": ""
   }
 
 
