@@ -570,6 +570,19 @@
     "x": "https://x.com/getpieces",
     "github": "https://github.com/pieces-app/documentation",
     "linkedin": ""
+  },
+  {
+    "id": 45,
+    "title": "Drupal at your Fingertips",
+    "description": "Modern Drupal developer's quick code reference.",
+    "link": "https://www.drupalatyourfingertips.com/",
+    "logo": "https://www.drupalatyourfingertips.com/images/d9book.svg",
+    "screenshot": "TBD",
+    "category": "Web",
+    "featured": false,
+    "x": "https://x.com/drupal",
+    "github": "https://github.com/selwynpolit/d9book",
+    "linkedin": "https://www.linkedin.com/company/2197069/admin/dashboard/"
   }
 
 ]
