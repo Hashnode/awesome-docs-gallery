@@ -563,13 +563,26 @@
     "title": "Pieces Documentation",
     "description": "Pieces for Developers documentation includes guides on extensions and plugins and includes API references.",
     "link": "https://beta.docs.pieces.app/getting-started/extensions-plugins/vs-code-extension",
-    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729583065034/38ZrU0S-U.jpg?auto=format",
-    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729583106808/ByGX_LEfp.png?auto=format",
-    "category": "SaaS",
+    "logo": "https://www.drupalatyourfingertips.com/images/d9book.svg",
+    "screenshot": "TBD",
+    "category": "CMS",
     "featured": false,
     "x": "https://x.com/getpieces",
     "github": "https://github.com/pieces-app/documentation",
     "linkedin": ""
+  },
+  {
+    "id": 44,
+    "title": "Drupal at your Fingertips",
+    "description": "Pieces for Developers documentation includes guides on extensions and plugins and includes API references.",
+    "link": "https://www.drupalatyourfingertips.com/",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729583065034/38ZrU0S-U.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729583106808/ByGX_LEfp.png?auto=format",
+    "category": "Web",
+    "featured": false,
+    "x": "https://x.com/drupal",
+    "github": "https://github.com/selwynpolit/d9book",
+    "linkedin": "https://www.linkedin.com/company/2197069/admin/dashboard/"
   }
 
 ]
