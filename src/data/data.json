@@ -530,6 +530,15 @@
     "featured": false,
     "x": "",
     "github": "https://github.com/pmndrs/zustand",
+    "title": "Requestly Documentation",
+    "description": "Requestly documentation covers detailed guides for modifying network requests directly in the browser.",
+    "link": "https://docs.requestly.com/general/getting-started/introduction",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729582277754/3lydsOgoy.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729581963663/CguqZbxcX.png?auto=format",
+    "category": "API",
+    "featured": false,
+    "x": "https://x.com/RequestlyIO",
+    "github": "https://github.com/requestly/requestly",
     "linkedin": ""
   },
   {
@@ -543,8 +552,56 @@
     "featured": false,
     "x": "",
     "github": "https://github.com/pmndrs/zustand",
+    "linkedin": "",
+    "title": "Phaser Documentation",
+    "description": "Phaser documentation provides thorough and easy-to-follow resources for building 2D games using the Phaser framework. Covering topics like game physics, animations, input handling, and asset management.",
+    "link": "https://docs.phaser.io/phaser/getting-started/what-is-phaser",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729582175063/6hlbNylLv.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729582045763/oKeHxFatZ.png?auto=format",
+    "category": "Framework",
+    "featured": false,
+    "x": "https://x.com/phaser_",
+    "github": "https://github.com/phaserjs/phaser",
     "linkedin": ""
+  },
+  {
+    "id": 43,
+    "title": "Outerbase Documentation",
+    "description": "Outerbase documentation offers guides for managing databases without writing SQL.",
+    "link": "https://docs.outerbase.com/introduction/quick-start",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729582102359/BGjDIJD52.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729582012741/xQhWwA43c.png?auto=format",
+    "category": "DB",
+    "featured": false,
+    "x": "https://x.com/outerbase",
+    "github": "https://github.com/expressjs/express",
+    "linkedin": ""
+  },
+  {
+    "id": 44,
+    "title": "Pieces Documentation",
+    "description": "Pieces for Developers documentation includes guides on extensions and plugins and includes API references.",
+    "link": "https://beta.docs.pieces.app/getting-started/extensions-plugins/vs-code-extension",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729583065034/38ZrU0S-U.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729583106808/ByGX_LEfp.png?auto=format",
+    "category": "SaaS",
+    "featured": false,
+    "x": "https://x.com/getpieces",
+    "github": "https://github.com/pieces-app/documentation",
+    "linkedin": ""
+  },
+  {
+    "id": 45,
+    "title": "KitOps Documentation",
+    "description": "KitOps Documentation provides developers with comprehensive guidance on using KitOps for streamlined MLOps workflows, enabling efficient model development, versioning, and deployment.",
+    "link": "https://kitops.ml/docs/overview.html",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729568910387/65A-vv4WB.png?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729568989044/CCGl_8ZYd.png?auto=format",
+    "category": "ML-AI",
+    "featured": false,
+    "x": "https://x.com/kit_ops",
+    "github": "https://github.com/jozu-ai/kitops/",
+    "linkedin": "https://www.linkedin.com/company/kitops-oss/"
   }
-
 
 ]
