@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     creator: "@hashnode",
     images: ["/images/awesome-docs-gallery-og.png"],
   },
+  alternates: {
+    canonical: "https://awesome-docs.gallery",
+  },
 };
 
 export default function HomePage() {
