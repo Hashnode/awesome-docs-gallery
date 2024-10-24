@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo, useRef, useEffect } from "react";
+import Image from "next/image";
 import data from "../data/data.json";
 import DocCard from "@/components/DocCard";
 import Header from "@/components/Header";
@@ -126,10 +127,10 @@ const HomePageContent: React.FC = () => {
                   height="862"
                   x=".5"
                   y="0"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                   filterUnits="userSpaceOnUse"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feBlend
                     in="SourceGraphic"
                     in2="BackgroundImageFix"
@@ -168,10 +169,10 @@ const HomePageContent: React.FC = () => {
                   height="862"
                   x=".5"
                   y="0"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                   filterUnits="userSpaceOnUse"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feBlend
                     in="SourceGraphic"
                     in2="BackgroundImageFix"
@@ -221,7 +222,7 @@ const HomePageContent: React.FC = () => {
           variants={containerVariants}
           className={`md:col-span-1 scroll-mt-24 ${
             selectedCategory ? "block" : "hidden md:block"
-          }`}
+            }`}
           ref={categoriesRef}
           id="categories"
         >
@@ -250,9 +251,9 @@ const HomePageContent: React.FC = () => {
                 <button
                   className={`px-4 py-2 rounded-md w-full text-left ${
                     selectedCategory === category
-                      ? "bg-neutral-950 text-neutral-50 dark:bg-neutral-800 dark:text-white"
-                      : "hover:bg-neutral-200 dark:hover:bg-neutral-800"
-                  }`}
+                    ? "bg-neutral-950 text-neutral-50 dark:bg-neutral-800 dark:text-white"
+                    : "hover:bg-neutral-200 dark:hover:bg-neutral-800"
+                    }`}
                   onClick={() => handleCategoryClick(category)}
                 >
                   {category}
@@ -277,13 +278,20 @@ const HomePageContent: React.FC = () => {
             variants={containerVariants}
             className="grid grid-cols-1 md:grid-cols-2 gap-5 items-stretch"
           >
-            {filteredAndSortedData.map((item) => (
+            {filteredAndSortedData.length > 0 ? (filteredAndSortedData.map((item) => (
               <div key={item.id}>
                 <motion.div variants={itemVariants} className="h-full">
                   <DocCard {...item} />
                 </motion.div>
               </div>
-            ))}
+            ))) : (
+            <div className="flex flex-col ml-4">
+              <h4 className="font-medium text-lg text-slate-300 md:whitespace-nowrap">
+                Whoops! No results found. Try a new keyword or phrase.
+              </h4>
+              <Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1634545140037/TJzLog6cK.png" alt="no results found" width={400} height={300} />
+            </div>
+          )}
           </motion.div>
         </motion.div>
       </div>

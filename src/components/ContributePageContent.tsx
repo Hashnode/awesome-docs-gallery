@@ -72,10 +72,10 @@ const ContributePageContent: React.FC = () => {
                 height="862"
                 x=".5"
                 y="0"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
                 filterUnits="userSpaceOnUse"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   in="SourceGraphic"
                   in2="BackgroundImageFix"
@@ -114,10 +114,10 @@ const ContributePageContent: React.FC = () => {
                 height="862"
                 x=".5"
                 y="0"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
                 filterUnits="userSpaceOnUse"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   in="SourceGraphic"
                   in2="BackgroundImageFix"
@@ -163,7 +163,7 @@ const ContributePageContent: React.FC = () => {
                 target="_Blank"
                 rel="noopener"
               >
-              ToolsPageContext.tsx 
+                ToolsPageContext.tsx
               </a>{" "}
               file, including relevant information such as title, description, link, logo, and any other details.
             </li>
