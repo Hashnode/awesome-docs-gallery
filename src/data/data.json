@@ -573,6 +573,19 @@
   },
   {
     "id": 45,
+    "title": "gRPC Documentation",
+    "description": "gRPC Documentation provides RPC concepts, A high performance, open source universal RPC framework developed by Google.",
+    "link": "https://grpc.io/docs/",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729680707737/BE3E6JEJJ.png?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729679714957/gteV9SwKd.png?auto=format",
+    "category": "Microservices",
+    "featured": false,
+    "x": "https://x.com/grpcio",
+    "github": "https://github.com/grpc",
+    "linkedin": ""
+  },
+  {
+    "id": 46,
     "title": "KitOps Documentation",
     "description": "KitOps Documentation provides developers with comprehensive guidance on using KitOps for streamlined MLOps workflows, enabling efficient model development, versioning, and deployment.",
     "link": "https://kitops.ml/docs/overview.html",
