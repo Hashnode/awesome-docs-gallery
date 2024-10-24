@@ -574,6 +574,32 @@
   },
   {
     "id": 45,
+    "title": "gRPC Documentation",
+    "description": "gRPC Documentation provides RPC concepts, A high performance, open source universal RPC framework developed by Google.",
+    "link": "https://grpc.io/docs/",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729680707737/BE3E6JEJJ.png?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729679714957/gteV9SwKd.png?auto=format",
+    "category": "Microservices",
+    "featured": false,
+    "x": "https://x.com/grpcio",
+    "github": "https://github.com/grpc",
+    "linkedin": ""
+  },
+  {
+    "id": 46,
+    "title": "KitOps Documentation",
+    "description": "KitOps Documentation provides developers with comprehensive guidance on using KitOps for streamlined MLOps workflows, enabling efficient model development, versioning, and deployment.",
+    "link": "https://kitops.ml/docs/overview.html",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729568910387/65A-vv4WB.png?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729568989044/CCGl_8ZYd.png?auto=format",
+    "category": "ML-AI",
+    "featured": false,
+    "x": "https://x.com/kit_ops",
+    "github": "https://github.com/jozu-ai/kitops/",
+    "linkedin": "https://www.linkedin.com/company/kitops-oss/"
+  },
+   {
+    "id": 47,
     "title": "LambdaTest Documentation",
     "description": "Explore LambdaTest's comprehensive documentation with detailed guides, API references, and best practices to streamline cross-browser testing and accelerate your testing workflows.",
     "link": "https://www.lambdatest.com/support/docs",
@@ -584,6 +610,6 @@
     "x": "https://x.com/Lambdatesting",
     "github": "https://github.com/LambdaTest",
     "linkedin": "https://www.linkedin.com/company/lambdatest"
-  },
+  }
 
 ]

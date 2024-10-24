@@ -40,7 +40,7 @@ const DocCard: React.FC<DocCardProps> = ({
 
   return (
     <Card className="flex flex-col overflow-hidden hover:shadow-lg h-full dark:border-neutral-800 dark:bg-neutral-900">
-      <CardContent className="flex-1 p-0 relative">
+      <CardContent className="p-0 relative">
         {screenshot && (
           <div className="w-full pt-[52.5%] relative overflow-hidden transform scale-[1.02] hover:scale-105 transition duration-100">
             <Image src={screenshot} alt={title + " screenshot"} fill />
@@ -62,7 +62,7 @@ const DocCard: React.FC<DocCardProps> = ({
           </Link>
         )}
       </CardContent>
-      <CardHeader className={logo ? "pt-14" : ""}>
+      <CardHeader className={`flex-1 ${logo ? "pt-14" : ""}`}>
         <CardTitle className="dark:text-neutral-50">{title}</CardTitle>
         <CardDescription className="dark:text-neutral-300">
           {description}
