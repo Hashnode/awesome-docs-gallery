@@ -507,6 +507,7 @@
     "linkedin": ""
   },
   {
+
     "id": 40,
     "title": "Express Documentation",
     "description": "Express.js docs provide a comprehensive guide for building web applications with Express, covering routing, middleware, and more. It's an essential resource to understand core concepts and best practices for using Express efficiently.",
@@ -596,6 +597,19 @@
     "x": "https://x.com/kit_ops",
     "github": "https://github.com/jozu-ai/kitops/",
     "linkedin": "https://www.linkedin.com/company/kitops-oss/"
+  },
+  {
+    "id":46,
+    "title":"val.town Docs",
+    "description":"val.town docs provides a detail guide to write and deploy vals (runnable JavaScript, TypeScript, and JSX modules) instantly on web.",
+    "link":"https://docs.val.town/",
+    "logo":"https://cdn.hashnode.com/res/hashnode/image/upload/v1729519939661/tw-4GYuNv.png?auto=format",
+    "screenshot":"https://cdn.hashnode.com/res/hashnode/image/upload/v1729520290534/5_Wy7rku5.png?auto=format",
+    "category":"Web",
+    "featured":"true",
+    "x":"https://x.com/valdottown",
+    "github":"https://github.com/val-town",
+    "linkedin":"https://www.linkedin.com/company/val-town"
   }
 
 ]
