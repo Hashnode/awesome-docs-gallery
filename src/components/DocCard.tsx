@@ -43,7 +43,7 @@ const DocCard: React.FC<DocCardProps> = ({
       <CardContent className="p-0 relative">
         {screenshot && (
           <div className="w-full pt-[52.5%] relative overflow-hidden transform scale-[1.02] hover:scale-105 transition duration-100">
-            <Image src={screenshot} alt={title + " screenshot"} fill />
+            <Image src={screenshot} alt={title + " screenshot"} fill sizes="w-fit" priority={false} />
             <div className="bg-gradient-to-b group-hover:opacity-0 opacity-100 from-neutral-950/0 via-neutral-950/10 to-neutral-950/20 absolute top-0 left-0 right-0 bottom-0 z-10"></div>
           </div>
         )}

@@ -261,10 +261,10 @@ const ToolsPageContent: React.FC = () => {
                 height="862"
                 x=".5"
                 y="0"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
                 filterUnits="userSpaceOnUse"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   in="SourceGraphic"
                   in2="BackgroundImageFix"
@@ -303,10 +303,10 @@ const ToolsPageContent: React.FC = () => {
                 height="862"
                 x=".5"
                 y="0"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
                 filterUnits="userSpaceOnUse"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   in="SourceGraphic"
                   in2="BackgroundImageFix"
