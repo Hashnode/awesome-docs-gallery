@@ -596,6 +596,19 @@
     "x": "https://x.com/kit_ops",
     "github": "https://github.com/jozu-ai/kitops/",
     "linkedin": "https://www.linkedin.com/company/kitops-oss/"
+  },
+  {
+    "id": 47,
+    "title": "Vite Documentation",
+    "description" : "Vite (French word for quick, pronounced /vit/, like veet) is a build tool that aims to provide a faster and leaner development experience for modern web projects.",
+    "link" : "https://vite.dev/guide/",
+    "logo" : "https://cdn.hashnode.com/res/hashnode/image/upload/v1729785539066/CiLOSuzai.png?auto=format",
+    "screenshot" : "https://cdn.hashnode.com/res/hashnode/image/upload/v1729785580610/tkSfjqtMx.png?auto=format",
+    "category" : "Web",
+    "featured" : "false",
+    "x" : "https://x.com/rayzakt",
+    "github" : "https://github.com/ZaktRay",
+    "linkedin" : "https://www.linkedin.com/in/m-azam-4o4/"
   }
 
 ]
