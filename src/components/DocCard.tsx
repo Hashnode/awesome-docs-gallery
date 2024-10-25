@@ -23,7 +23,7 @@ interface DocCardProps {
   github: string;
   linkedin: string;
   linkText?: string;
-  featured: boolean;
+  featured?: boolean;
 }
 
 const DocCard: React.FC<DocCardProps> = ({
@@ -138,6 +138,7 @@ const DocCard: React.FC<DocCardProps> = ({
 export default DocCard;
 
 export const WithFeaturedLabel = (Component: React.FC<DocCardProps>) => {
+  // eslint-disable-next-line react/display-name
   return (props: DocCardProps) => {
     return (
       <>
