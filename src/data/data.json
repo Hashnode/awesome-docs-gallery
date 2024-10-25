@@ -596,6 +596,19 @@
     "x": "https://x.com/kit_ops",
     "github": "https://github.com/jozu-ai/kitops/",
     "linkedin": "https://www.linkedin.com/company/kitops-oss/"
+  },
+  {
+    "id": 47,
+    "title": "Cerbos Documentation",
+    "description": "Cerbos Documentation explains how to implement and run open source Cerbos Policy Decision Point as an externalized authorization provider for your application.",
+    "link": "https://docs.cerbos.dev",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729793546436/5ZZGygXmX.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729793227760/x62Wk2Ec3.png?auto=format",
+    "category": "Microservices",
+    "featured": false,
+    "x": "https://x.com/cerbosdev",
+    "github": "https://github.com/cerbos/cerbos",
+    "linkedin": "https://www.linkedin.com/company/cerbos-dev/"
   }
 
 ]
