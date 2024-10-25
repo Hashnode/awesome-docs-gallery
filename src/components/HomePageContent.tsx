@@ -6,6 +6,7 @@ import data from "../data/data.json";
 import DocCard from "@/components/DocCard";
 import Header from "@/components/Header";
 import { motion } from "framer-motion";
+import { WithFeaturedLabel } from "@/components/DocCard";
 
 interface DocItem {
   id: number;
@@ -23,23 +24,27 @@ interface DocItem {
 
 const HomePageContent: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
+  const WithFeaturedTag = WithFeaturedLabel(DocCard);
   const categoriesRef = useRef<HTMLDivElement>(null);
-
   const categories = useMemo(() => {
     const categorySet = new Set(data.map((item: DocItem) => item.category));
-    return Array.from(categorySet).sort();
-  }, []);
+    const allCategories = Array.from(categorySet).sort();
+    return [
+      ...selectedCategories,
+      ...allCategories.filter((category) => !selectedCategories.includes(category)),
+    ];
+  }, [selectedCategories]);
 
   const filteredAndSortedData = useMemo(() => {
     const filtered = data.filter(
       (item: DocItem) =>
         (item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
           item.description.toLowerCase().includes(searchTerm.toLowerCase())) &&
-        (!selectedCategory || item.category === selectedCategory)
+        (selectedCategories.length === 0 || selectedCategories.includes(item.category))
     );
     return filtered.sort((a, b) => a.title.localeCompare(b.title));
-  }, [searchTerm, selectedCategory]);
+  }, [searchTerm, selectedCategories]);
 
   const featuredData = useMemo(
     () => filteredAndSortedData.filter((item) => item.featured),
@@ -71,19 +76,23 @@ const HomePageContent: React.FC = () => {
   };
 
   const handleCategoryClick = (category: string) => {
-    setSelectedCategory(category);
+    setSelectedCategories((prevCategories) =>
+      prevCategories.includes(category)
+        ? prevCategories.filter((cat) => cat !== category)
+        : [...prevCategories, category]
+    );
   };
 
   useEffect(() => {
-    if (selectedCategory && categoriesRef.current) {
+    if (selectedCategories.length > 0 && categoriesRef.current) {
       categoriesRef.current.scrollIntoView();
     }
-  }, [selectedCategory]);
+  }, [selectedCategories]);
 
   return (
     <main className="max-w-5xl mx-auto md:pt-5 transition-colors duration-200 flex flex-col items-stretch gap-10 px-5 lg:px-0 overflow-x-hidden lg:overflow-x-visible">
       <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      {!searchTerm && !selectedCategory && (
+      {!searchTerm && selectedCategories.length === 0 && (
         <motion.section
           initial="hidden"
           animate="visible"
@@ -188,7 +197,7 @@ const HomePageContent: React.FC = () => {
           </div>
         </motion.section>
       )}
-      {!searchTerm && !selectedCategory && featuredData.length > 0 && (
+      {!searchTerm && selectedCategories.length === 0 && featuredData.length > 0 && (
         <motion.div
           initial="hidden"
           animate="visible"
@@ -221,7 +230,7 @@ const HomePageContent: React.FC = () => {
           animate="visible"
           variants={containerVariants}
           className={`md:col-span-1 scroll-mt-24 ${
-            selectedCategory ? "block" : "hidden md:block"
+            selectedCategories.length > 0 ? "block" : "hidden md:block"
             }`}
           ref={categoriesRef}
           id="categories"
@@ -236,11 +245,11 @@ const HomePageContent: React.FC = () => {
             variants={itemVariants}
             className="space-y-2 text-sm font-medium text-neutral-700 dark:text-neutral-300"
           >
-            {selectedCategory && (
+            {selectedCategories.length > 0 && (
               <li>
                 <button
                   className="px-4 py-2 border border-red-500 rounded-md w-full text-left text-red-500 hover:bg-neutral-100 dark:hover:bg-neutral-800"
-                  onClick={() => setSelectedCategory(null)}
+                  onClick={() => setSelectedCategories([])}
                 >
                   Clear filter
                 </button>
@@ -250,7 +259,7 @@ const HomePageContent: React.FC = () => {
               <li key={category}>
                 <button
                   className={`px-4 py-2 rounded-md w-full text-left ${
-                    selectedCategory === category
+                    selectedCategories.includes(category)
                     ? "bg-neutral-950 text-neutral-50 dark:bg-neutral-800 dark:text-white"
                     : "hover:bg-neutral-200 dark:hover:bg-neutral-800"
                     }`}
@@ -281,17 +290,17 @@ const HomePageContent: React.FC = () => {
             {filteredAndSortedData.length > 0 ? (filteredAndSortedData.map((item) => (
               <div key={item.id}>
                 <motion.div variants={itemVariants} className="h-full">
-                  <DocCard {...item} />
+                  <WithFeaturedTag {...item} />
                 </motion.div>
               </div>
             ))) : (
-            <div className="flex flex-col ml-4">
-              <h4 className="font-medium text-lg text-slate-300 md:whitespace-nowrap">
-                Whoops! No results found. Try a new keyword or phrase.
-              </h4>
-              <Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1634545140037/TJzLog6cK.png" alt="no results found" width={400} height={300} />
-            </div>
-          )}
+              <div className="flex flex-col ml-4">
+                <h4 className="font-medium text-lg text-slate-300 md:whitespace-nowrap">
+                  Whoops! No results found. Try a new keyword or phrase.
+                </h4>
+                <Image src="https://cdn.hashnode.com/res/hashnode/image/upload/v1634545140037/TJzLog6cK.png" alt="no results found" width={400} height={300} />
+              </div>
+            )}
           </motion.div>
         </motion.div>
       </div>

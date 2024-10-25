@@ -23,6 +23,7 @@ interface DocCardProps {
   github: string;
   linkedin: string;
   linkText?: string;
+  featured: boolean;
 }
 
 const DocCard: React.FC<DocCardProps> = ({
@@ -43,7 +44,13 @@ const DocCard: React.FC<DocCardProps> = ({
       <CardContent className="p-0 relative">
         {screenshot && (
           <div className="w-full pt-[52.5%] relative overflow-hidden transform scale-[1.02] hover:scale-105 transition duration-100">
-            <Image src={screenshot} alt={title + " screenshot"} fill sizes="w-fit" priority={false} />
+            <Image
+              src={screenshot}
+              alt={title + " screenshot"}
+              fill
+              sizes="w-fit"
+              priority={false}
+            />
             <div className="bg-gradient-to-b group-hover:opacity-0 opacity-100 from-neutral-950/0 via-neutral-950/10 to-neutral-950/20 absolute top-0 left-0 right-0 bottom-0 z-10"></div>
           </div>
         )}
@@ -129,3 +136,18 @@ const DocCard: React.FC<DocCardProps> = ({
 };
 
 export default DocCard;
+
+export const WithFeaturedLabel = (Component: React.FC<DocCardProps>) => {
+  return (props: DocCardProps) => {
+    return (
+      <>
+        {props.featured && (
+          <span className="absolute top-0 left-0 bg-[#d4af37] to-primary-400 text-xs text-white font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg z-50">
+            Featured
+          </span>
+        )}
+        <Component {...props} />
+      </>
+    );
+  };
+};
