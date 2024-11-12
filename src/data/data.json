@@ -519,6 +519,7 @@
     "github": "https://github.com/expressjs/express",
     "linkedin": ""
   },
+
   {
     "id": 41,
     "title": "Requestly Documentation",
@@ -661,5 +662,18 @@
     "x": "https://x.com/reactnative", 
     "github": "https://github.com/facebook/react-native", 
     "linkedin": "https://www.linkedin.com/products/facebook-react-native"
+  },
+  {
+    "id": 52,
+    "title": "LambdaTest Documentation",
+    "description": "Explore LambdaTest's comprehensive documentation with detailed guides, API references, and best practices to streamline cross-browser testing and accelerate your testing workflows.",
+    "link": "https://www.lambdatest.com/support/docs",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729583522666/OGHNR5Q2V.png",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729583618006/aVU_Kjx8e.png",
+    "category": "SaaS",
+    "featured": false,
+    "x": "https://x.com/Lambdatesting",
+    "github": "https://github.com/LambdaTest",
+    "linkedin": "https://www.linkedin.com/company/lambdatest"
   }
 ]
