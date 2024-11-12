@@ -598,8 +598,73 @@
     "github": "https://github.com/jozu-ai/kitops/",
     "linkedin": "https://www.linkedin.com/company/kitops-oss/"
   },
-   {
+  {
     "id": 47,
+    "title": "Cerbos Documentation",
+    "description": "Cerbos Documentation explains how to implement and run open source Cerbos Policy Decision Point as an externalized authorization provider for your application.",
+    "link": "https://docs.cerbos.dev",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729793546436/5ZZGygXmX.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729793227760/x62Wk2Ec3.png?auto=format",
+    "category": "Microservices",
+    "featured": false,
+    "x": "https://x.com/cerbosdev",
+    "github": "https://github.com/cerbos/cerbos",
+    "linkedin": "https://www.linkedin.com/company/cerbos-dev/"
+  },
+  {
+    "id": 48,
+    "title": "Deno",
+    "description": "Deno documentation offers comprehensive guides and API references for the Deno runtime, Deno Deploy, and its ecosystem, making it a valuable resource for developers using Deno for web development and beyond.",
+    "link": "https://docs.deno.com/runtime/getting_started/installation/",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729687003359/s6JAO1s1K.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729685104638/nA1s94Un3.PNG?auto=format",
+    "category": "Web",
+    "featured": false,
+    "x": "https://x.com/deno_land",
+    "github": "https://github.com/denoland/deno",
+    "linkedin": "https://www.linkedin.com/company/deno/"
+  },
+  {
+    "id": 49,
+    "title": "Kaggle",
+    "description": "Kaggle documentation provides resources for data science and machine learning, including competitions, datasets, notebooks, and APIs.",
+    "link": "https://www.kaggle.com/docs",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729687059600/5B-voepOt.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729686240334/MvoaiFmAB.PNG?auto=format",
+    "category": "DS-ML",
+    "featured": false,
+    "x": "https://x.com/kaggle",
+    "github": "https://github.com/kaggle",
+    "linkedin": "https://www.linkedin.com/company/kaggle/"
+  },
+  {
+    "id": 50,
+    "title": "Render",
+    "description": "Render documentation provides comprehensive guides for deploying and managing web applications, databases, background tasks, and static sites within a scalable and managed cloud environment.",
+    "link": "https://docs.render.com/",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729687610546/yhPN-xfHg.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729687637326/O-Bprq6wA.PNG?auto=format",
+    "category": "Cloud",
+    "featured": false,
+    "x": "https://x.com/render",
+    "github": "https://github.com/renderinc",
+    "linkedin": "https://www.linkedin.com/company/renderco/"
+  },
+  { 
+    "id": 51, 
+    "title": "React-Native Documentation", 
+    "description": "React-Native docs provide a comprehensive guide for building cross platform applications for Android, iOS, Web. It's an essential resource to understand core concepts and best practices for using Express efficiently.", 
+    "link": "https://reactnative.dev/docs/getting-started",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729537206218/s-7BAX0wn.png?auto=format", 
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729537271108/wz16MRQx4.png?auto=format", 
+    "category": "Framework", 
+    "featured": false, 
+    "x": "https://x.com/reactnative", 
+    "github": "https://github.com/facebook/react-native", 
+    "linkedin": "https://www.linkedin.com/products/facebook-react-native"
+  },
+  {
+    "id": 52,
     "title": "LambdaTest Documentation",
     "description": "Explore LambdaTest's comprehensive documentation with detailed guides, API references, and best practices to streamline cross-browser testing and accelerate your testing workflows.",
     "link": "https://www.lambdatest.com/support/docs",
@@ -611,5 +676,4 @@
     "github": "https://github.com/LambdaTest",
     "linkedin": "https://www.linkedin.com/company/lambdatest"
   }
-
 ]
