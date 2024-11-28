@@ -612,16 +612,18 @@
   },
   {
     "id": 48,
-    "title": "Deno",
-    "description": "Deno documentation offers comprehensive guides and API references for the Deno runtime, Deno Deploy, and its ecosystem, making it a valuable resource for developers using Deno for web development and beyond.",
-    "link": "https://docs.deno.com/runtime/getting_started/installation/",
-    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729687003359/s6JAO1s1K.jpg?auto=format",
-    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729685104638/nA1s94Un3.PNG?auto=format",
+
+    "title": "NodeJs Documentation",
+    "description": "The Node.js documentation offers a thorough guide for developing scalable applications, detailing modules, asynchronous programming, and more. It's an essential resource for understanding core concepts and best practices to use Node.js efficiently.",
+    "link": "https://nodejs.org/docs/latest/api/",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729953479755/1r9LwmxsT.png?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729965401802/_tFQxbuPg.png?auto=format",
     "category": "Web",
     "featured": false,
-    "x": "https://x.com/deno_land",
-    "github": "https://github.com/denoland/deno",
-    "linkedin": "https://www.linkedin.com/company/deno/"
+    "x": "https://twitter.com/nodejs",
+    "github": "https://github.com/nodejs/node",
+    "linkedin": "https://www.linkedin.com/company/node-js"
+
   },
   {
     "id": 49,
@@ -661,5 +663,6 @@
     "x": "https://x.com/reactnative", 
     "github": "https://github.com/facebook/react-native", 
     "linkedin": "https://www.linkedin.com/products/facebook-react-native"
+
   }
 ]
