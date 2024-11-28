@@ -612,6 +612,7 @@
   },
   {
     "id": 48,
+
     "title": "NodeJs Documentation",
     "description": "The Node.js documentation offers a thorough guide for developing scalable applications, detailing modules, asynchronous programming, and more. It's an essential resource for understanding core concepts and best practices to use Node.js efficiently.",
     "link": "https://nodejs.org/docs/latest/api/",
@@ -622,6 +623,46 @@
     "x": "https://twitter.com/nodejs",
     "github": "https://github.com/nodejs/node",
     "linkedin": "https://www.linkedin.com/company/node-js"
-  }
 
+  },
+  {
+    "id": 49,
+    "title": "Kaggle",
+    "description": "Kaggle documentation provides resources for data science and machine learning, including competitions, datasets, notebooks, and APIs.",
+    "link": "https://www.kaggle.com/docs",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729687059600/5B-voepOt.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729686240334/MvoaiFmAB.PNG?auto=format",
+    "category": "DS-ML",
+    "featured": false,
+    "x": "https://x.com/kaggle",
+    "github": "https://github.com/kaggle",
+    "linkedin": "https://www.linkedin.com/company/kaggle/"
+  },
+  {
+    "id": 50,
+    "title": "Render",
+    "description": "Render documentation provides comprehensive guides for deploying and managing web applications, databases, background tasks, and static sites within a scalable and managed cloud environment.",
+    "link": "https://docs.render.com/",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729687610546/yhPN-xfHg.jpg?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729687637326/O-Bprq6wA.PNG?auto=format",
+    "category": "Cloud",
+    "featured": false,
+    "x": "https://x.com/render",
+    "github": "https://github.com/renderinc",
+    "linkedin": "https://www.linkedin.com/company/renderco/"
+  },
+  { 
+    "id": 51, 
+    "title": "React-Native Documentation", 
+    "description": "React-Native docs provide a comprehensive guide for building cross platform applications for Android, iOS, Web. It's an essential resource to understand core concepts and best practices for using Express efficiently.", 
+    "link": "https://reactnative.dev/docs/getting-started",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729537206218/s-7BAX0wn.png?auto=format", 
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729537271108/wz16MRQx4.png?auto=format", 
+    "category": "Framework", 
+    "featured": false, 
+    "x": "https://x.com/reactnative", 
+    "github": "https://github.com/facebook/react-native", 
+    "linkedin": "https://www.linkedin.com/products/facebook-react-native"
+
+  }
 ]
