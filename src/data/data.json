@@ -661,5 +661,18 @@
     "x": "https://x.com/reactnative", 
     "github": "https://github.com/facebook/react-native", 
     "linkedin": "https://www.linkedin.com/products/facebook-react-native"
+  },
+  {
+    "id": 52,
+    "title": "NodeJs Documentation",
+    "description": "The Node.js documentation offers a thorough guide for developing scalable applications, detailing modules, asynchronous programming, and more. It's an essential resource for understanding core concepts and best practices to use Node.js efficiently.",
+    "link": "https://nodejs.org/docs/latest/api/",
+    "logo": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729953479755/1r9LwmxsT.png?auto=format",
+    "screenshot": "https://cdn.hashnode.com/res/hashnode/image/upload/v1729965401802/_tFQxbuPg.png?auto=format",
+    "category": "Web",
+    "featured": false,
+    "x": "https://twitter.com/nodejs",
+    "github": "https://github.com/nodejs/node",
+    "linkedin": "https://www.linkedin.com/company/node-js"
   }
 ]
